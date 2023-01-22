@@ -26,9 +26,10 @@ header img {
 }
 
 main {
-    max-width: 800px;
+    max-width: fit-content;
     margin: 0 auto;
     padding: 20px;
+    align-items: center;
 
 }
 
@@ -39,7 +40,21 @@ main img{
 h2 {
     font-size: 40px;
 }
+.tlacitko {
+    width: 800px;
+    height: 200px;
+    background-color: #193855;
+    border: black;
+    font-size: 40px;
 
+}
+.tlacitko:hover{
+    background-color: aqua;
+    cursor: crosshair;
+}
+.description{
+    display: none;
+}
 .happy {
     font-size: 15px;
     margin-top: 0px;
