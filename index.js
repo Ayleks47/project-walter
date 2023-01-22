@@ -37,6 +37,8 @@ console.log("LOADED!");
 // btn.addEventListener("click", function(e){
 //     show();
 // })
+
+// reveal function
 function reveal() {
     var x = document.getElementById("description")
     if (x.style.display === "none") {
@@ -45,4 +47,8 @@ function reveal() {
     else {
         x.style.display = "none"
     }
+}
+// button click
+if (document.getElementById("tlacitko").clicked == True) {
+    reveal()
 }
